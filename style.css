@@ -1,0 +1,40 @@
+/*
+palette:
+1C29B2 727EFF 5967FF B2921B FFDC59
+*/
+
+p {
+	color: red;
+}
+
+.w-button{
+	background-color: #5967FF;
+	border-style: none;
+	color:white;
+	padding: 5px 10px 5px 10px;
+	border-radius: 30px;
+	border: #53567F;
+	cursor: pointer;
+}
+
+.w-button:hover {
+	background-color: #A5ADFF;
+}
+
+
+.w-select{
+	color: white;
+	background-color: #5967FF;
+	padding: 5px 10px 5px 10px;
+	border-style: none;
+	border-radius: 30px;
+}
+.w-option:hover, .w-option:checked, .w-option:focus{
+	background-color: #1C29B2;
+	color:red;
+}
+
+.w-option{
+	padding: 15px;
+}
+
