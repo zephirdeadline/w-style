@@ -9,19 +9,11 @@ p {
 
 body {
 	font-family: 'Roboto', sans-serif;
+	background: linear-gradient(cornflowerblue, white);
+	background-repeat: no-repeat;
 }
 
 .w-button{
-	background-color: #5967FF;
-	border-style: none;
-	color:white;
-	padding: 5px 10px 5px 10px;
-	border-radius: 30px;
-	border: #53567F;
-	cursor: pointer;
-}
-
-.w-button-icon{
 	background-color: #5967FF;
 	border-style: none;
 	color:white;
@@ -55,14 +47,16 @@ body {
 	/*width: 100%;*/
 /*}*/
 .w-menu {
-	background-color: #727EFF;
 	display: flex;
 	flex-wrap: wrap;
 	padding-left: 0;
+	border-radius: 30px;
+	overflow: hidden;
 }
 
 .w-menu-item {
-	background-color: #727EFF;
+	color: white;
+	background-color: #5967FF;
 	margin: 0px auto 0px auto;
 	padding: 5px 0px 5px 0px;
 	width: 100%;
@@ -83,13 +77,21 @@ body {
 /*}*/
 
 .w-menu-item:hover {
-	background-color: #5967FF;
+	background-color: #A5ADFF;
 	cursor: pointer;
+}
+
+.w-input {
+	border-width: 0px 0px 1px 0px;
+	border-color: #1C29B2;
+	color: #B2921B;
+	background-color: transparent;
 }
 
 @media (max-width: 320px) {
 	.w-menu {
 		flex-direction: column;
+		border-radius: 0;
 	}
 
 	.w-menu-item {
